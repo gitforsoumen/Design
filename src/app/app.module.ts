@@ -14,12 +14,12 @@ import { LoginPageModule } from "../pages/login/login.module";
   declarations: [
     MyApp,
     HomePage,
-    ListPage,
-    LoginPageModule
+    ListPage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    LoginPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
